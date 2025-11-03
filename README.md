@@ -12,7 +12,6 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.8;
@@ -20,13 +19,11 @@
             color: #333;
             min-height: 100vh;
         }
-        
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
-        
         .header {
             background: white;
             border-radius: 20px;
@@ -35,7 +32,6 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             text-align: center;
         }
-        
         .header h1 {
             color: #2c3e50;
             font-size: 2.5em;
@@ -44,13 +40,11 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        
         .header p {
             font-size: 1.2em;
             color: #7f8c8d;
             margin-bottom: 20px;
         }
-        
         .badges {
             display: flex;
             justify-content: center;
@@ -58,7 +52,6 @@
             flex-wrap: wrap;
             margin: 20px 0;
         }
-        
         .badge {
             background: #f8f9fa;
             padding: 8px 16px;
@@ -66,7 +59,6 @@
             font-size: 0.9em;
             border: 2px solid #e9ecef;
         }
-        
         .content-section {
             background: white;
             border-radius: 15px;
@@ -74,26 +66,22 @@
             margin-bottom: 25px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
-        
         h2 {
             color: #2c3e50;
             margin-bottom: 20px;
             padding-bottom: 10px;
             border-bottom: 3px solid #3498db;
         }
-        
         h3 {
             color: #34495e;
             margin: 20px 0 15px 0;
         }
-        
         .lesson-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
             margin: 20px 0;
         }
-        
         .lesson-card {
             background: #f8f9fa;
             padding: 20px;
@@ -101,17 +89,14 @@
             border-right: 4px solid #3498db;
             transition: transform 0.3s ease;
         }
-        
         .lesson-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
         }
-        
         .lesson-card h4 {
             color: #2c3e50;
             margin-bottom: 10px;
         }
-        
         .file-structure {
             background: #2c3e50;
             color: white;
@@ -120,15 +105,12 @@
             font-family: 'Courier New', monospace;
             margin: 20px 0;
         }
-        
         .file-structure .folder {
             color: #3498db;
         }
-        
         .file-structure .file {
             color: #2ecc71;
         }
-        
         .tips {
             background: linear-gradient(135deg, #fff3cd, #ffeaa7);
             border-right: 4px solid #f39c12;
@@ -136,20 +118,17 @@
             border-radius: 10px;
             margin: 20px 0;
         }
-        
         .contribution-steps {
             background: #e8f4fd;
             padding: 20px;
             border-radius: 10px;
             margin: 20px 0;
         }
-        
         .step {
             display: flex;
             align-items: flex-start;
             margin-bottom: 15px;
         }
-        
         .step-number {
             background: #3498db;
             color: white;
@@ -162,7 +141,6 @@
             margin-left: 15px;
             flex-shrink: 0;
         }
-        
         code {
             background: #2c3e50;
             color: #ecf0f1;
@@ -171,23 +149,19 @@
             font-family: 'Courier New', monospace;
             font-size: 0.9em;
         }
-        
         .footer {
             text-align: center;
             margin-top: 40px;
             padding: 20px;
             color: white;
         }
-        
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 2em;
             }
-            
             .container {
                 padding: 10px;
             }
-            
             .content-section {
                 padding: 20px;
             }
@@ -200,7 +174,6 @@
         <div class="header">
             <h1>🎯 Vimtutor بالعربية</h1>
             <p>دليل تعلم Vim التفاعلي للمتحدثين بالعربية</p>
-            
             <div class="badges">
                 <div class="badge">🔄 مفتوح المصدر</div>
                 <div class="badge">📚 تعليمي تفاعلي</div>
@@ -208,13 +181,11 @@
                 <div class="badge">🚀 للمبتدئين</div>
             </div>
         </div>
-
         <!-- About Section -->
         <div class="content-section">
             <h2>📖 عن المشروع</h2>
             <p>مشروع <strong>Vimtutor بالعربية</strong> يهدف إلى تقديم دروس Vim التفاعلية بلغتنا الأم، مما يجعل تعلم محرر Vim القوي سهلًا ومتاحًا للمبرمجين والمطورين العرب. المشروع مبني على الدروس الرسمية لـ Vim مع ترجمة دقيقة وشرح واضح.</p>
         </div>
-
         <!-- Why This Project Section -->
         <div class="content-section">
             <h2>🎯 لماذا هذا المشروع؟</h2>
@@ -237,7 +208,6 @@
                 </div>
             </div>
         </div>
-
         <!-- File Structure -->
         <div class="content-section">
             <h2>📁 هيكل المشروع</h2>
@@ -257,11 +227,9 @@
                 <div class="file">&nbsp; └── ⚖️ LICENSE</div>
             </div>
         </div>
-
         <!-- How to Use -->
         <div class="content-section">
             <h2>🚀 كيفية الاستخدام</h2>
-            
             <h3>الطريقة الأولى: القراءة المباشرة</h3>
             <div class="step">
                 <div class="step-number">1</div>
@@ -275,7 +243,6 @@
                 <div class="step-number">3</div>
                 <div>طبق الأوامر مباشرة في Vim</div>
             </div>
-            
             <h3>الطريقة الثانية: التحميل والممارسة</h3>
             <div class="step">
                 <div class="step-number">1</div>
@@ -290,7 +257,6 @@
                 <div>استخدم <code>:help</code> للحصول على مساعدة إضافية</div>
             </div>
         </div>
-
         <!-- Lessons List -->
         <div class="content-section">
             <h2>📚 قائمة الدروس</h2>
@@ -325,7 +291,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Tips Section -->
         <div class="content-section">
             <h2>💡 نصائح للتعلم</h2>
@@ -348,7 +313,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Requirements -->
         <div class="content-section">
             <h2>🛠 المتطلبات</h2>
@@ -358,12 +322,10 @@
                 <li>الرغبة في التعلم! 💪</li>
             </ul>
         </div>
-
         <!-- Contribution -->
         <div class="content-section">
             <h2>🤝 المساهمة في المشروع</h2>
             <p>نرحب بمساهماتكم! يمكنكم المساعدة عن طريق:</p>
-            
             <div class="lesson-grid">
                 <div class="lesson-card">
                     <h4>🔧 تصحيح الأخطاء</h4>
@@ -382,7 +344,6 @@
                     <p>موارد إضافية</p>
                 </div>
             </div>
-
             <h3>كيفية المساهمة:</h3>
             <div class="contribution-steps">
                 <div class="step">
@@ -407,7 +368,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Footer -->
         <div class="footer">
             <p>⭐ <strong>لا تنسى عمل Star للمشروع إذا أعجبك!</strong></p>
