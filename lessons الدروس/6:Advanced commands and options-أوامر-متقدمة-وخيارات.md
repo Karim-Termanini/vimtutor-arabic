@@ -13,7 +13,7 @@
 
 <li>اكتب <code>o</code> (صغير) لفتح سطر <strong>أسفل</strong> المؤشر ووضعك في وضع الإدراج.</li>
 
-<li>الآن انسخ السطر المحدد بـ ---> واضغط <code><ESC></code> للخروج من وضع الإدراج.</li>
+<li>الآن انسخ السطر المحدد بـ ---> واضغط <code> ESC </code> للخروج من وضع الإدراج.</li>
 </ol>
 
 <strong>---&gt; After typing  o  the cursor is placed on the open line in Insert mode.</strong>
@@ -41,7 +41,7 @@
 </ol>
 
 <div style="background: #f0f0f0; padding: 10px; border-right: 4px solid #ccc; margin: 15px 0;">
-<strong>ملاحظة:</strong> هذا يتجنب كتابة <code>i</code>، آخر حرف، النص للإدراج، <code><ESC></code>، المؤشر لليمين، وأخيراً <code>x</code>، فقط للإلحاق بنهاية السطر!
+<strong>ملاحظة:</strong> هذا يتجنب كتابة <code>i</code>، آخر حرف، النص للإدراج، <code> ESC </code>، المؤشر لليمين، وأخيراً <code>x</code>، فقط للإلحاق بنهاية السطر!
 </div>
 
 <ol start="3">
@@ -74,7 +74,7 @@
 <br><strong>---&gt; To make the first line the same as the second, type R and the new text.</strong>
 
 <ol start="4">
-  <li>لاحظ أنه عند الضغط على <code><ESC></code> للخروج، أي نص غير معدل يبقى كما هو.</li>
+  <li>لاحظ أنه عند الضغط على <code> ESC </code> للخروج، أي نص غير معدل يبقى كما هو.</li>
 </ol>
 
 <hr style="margin: 30px 0; border: 1px dashed #ccc;">
@@ -120,7 +120,7 @@
 <li>اكتب <code>a</code> لإدراج نص <strong>بعد</strong> الحرف الذي عليه المؤشر.
   <br>كتابة <code>A</code> كبير تلحق النص تلقائياً بنهاية السطر.</li>
 
-<li>كتابة <code>R</code> كبير تدخل وضع الاستبدال حتى الضغط على <code><ESC></code> للخروج.</li>
+<li>كتابة <code>R</code> كبير تدخل وضع الاستبدال حتى الضغط على <code> ESC </code> للخروج.</li>
 
 <li>كتابة <code>:set xxx</code> تضبط الخيار "xxx"</li>
 </ol>
