@@ -89,17 +89,20 @@ markdown
 ### كيفية المساهمة:
 
 1. **انشق المشروع** (Fork the project)
-2. **أنشئ فرعًا للميزة الجديدة** 
+2. **أنشئ فرعًا للميزة الجديدة**
+    
    ```bash
    git checkout -b feature/mizra-jadida
 احفظ التغييرات
 
 bash
 git commit -m 'إضافة ميزة جديدة'
+
 ارفع التغييرات
 
 bash
 git push origin feature/mizra-jadida
+
 افتح طلب دمج (Open a Pull Request)
 
 📄 الرخصة
@@ -110,13 +113,12 @@ git push origin feature/mizra-jadida
 
 المساهمون من المجتمع
 
-🙏 الشكر
-فريق تطوير Vim على الأداة الرائعة
+🙏 Thanks
+The Vim development team for the great tool
 
-Michael C. Pierce و Robert K. Ware على vimtutor الأصلي
+Michael C. Pierce and Robert K. Ware for the original vimtutor
 
-Bram Moolenaar على Vim
-
+Bram Moolenaar for Vim
 📞 التواصل
 📧 لديك استفسار؟ افتح Issue
 
