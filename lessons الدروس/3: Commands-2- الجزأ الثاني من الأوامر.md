@@ -75,7 +75,7 @@
 
 <li>اكتب <code>cw</code> والكلمة الصحيحة (في هذه الحالة، اكتب 'ine').</li>
 
-<li>اضغط <code><ESC></code> وانتقل إلى الخطأ التالي (أول حرف يحتاج للتغيير).</li>
+<li>اضغط <code> ESC </code> وانتقل إلى الخطأ التالي (أول حرف يحتاج للتغيير).</li>
 
 <li>كرر الخطوتين 3 و 4 حتى تصبح الجملة الأولى مطابقة للثانية.</li>
 </ol>
@@ -112,7 +112,7 @@
 
 <li>حرك المؤشر إلى أول خطأ.</li>
 
-<li>اكتب <code>c$</code> لجعل بقية السطر مثل الثاني واضغط <code><ESC></code>.</li>
+<li>اكتب <code>c$</code> لجعل بقية السطر مثل الثاني واضغط <code> ESC </code>.</li>
 </ol>
 
 <strong>---&gt; The end of this line needs some help to make it like the second.</strong>
